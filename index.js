@@ -5,7 +5,6 @@ import dbConnection from "./helper/dbConnection.js";
 import AuthRoute from "./view/auth.view.js";
 import ProductRoute from "./view/product.view.js";
 
-
 const app = express();
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
